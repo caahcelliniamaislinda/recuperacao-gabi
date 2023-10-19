@@ -1,25 +1,33 @@
- .container{
-    height: 100vh;
+ .container {
+     height: 100vh;
      display: grid;
      grid-template-columns: 50% 50%;
-   }
-   .container__titulo{
-    font-size:28px;
-    font-weight:700;
-   }
-   .container__botao{
-    margin-bottom:1em;
-   }
-   .botao__secundario{
-    background-color: rebeccapurple;
-    border: 2px solid #FFFFFF;
-    border: 2px solid var(--branco-principal);  
+ }
 
-   }
-   .container__aviso{
-    font-size: 12px;
-  color: var(--cinza-secundario);
-   }
-   .container__imagem{
-   
-   }
+.principal {
+    background-image: url(img/planodeFundo.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+ .container__titulo {
+     font-size: 28px;
+     font-weight: 700;
+ }
+
+ .container__botao {
+     margin-bottom: 1em;
+ }
+
+ .botao__secundario {
+     background-color: rebeccapurple;
+     border: 2px solid #FFFFFF;
+     border: 2px solid var(--branco-principal);
+
+ }
+
+ .container__aviso {
+     font-size: 12px;
+     color: var(--cinza-secundario);
+ }
+
+ .container__imagem {}
