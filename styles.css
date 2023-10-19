@@ -11,7 +11,7 @@
     margin-bottom:1em;
    }
    .botao__secundario{
-    background-color: transparent;
+    background-color: rebeccapurple;
     border: 2px solid #FFFFFF;
     border: 2px solid var(--branco-principal);  
 
