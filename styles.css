@@ -30,4 +30,6 @@
      color: var(--cinza-secundario);
  }
 
- .container__imagem {}
+ .container__caixa{
+     margin:0 6cm;
+ }
